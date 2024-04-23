@@ -191,8 +191,8 @@ function AppAppBar({ mode, toggleColorMode }) {
                   >
                     <ToggleColorMode mode={mode} toggleColorMode={toggleColorMode} />
                   </Box>
-                  <MenuItem onClick={() => scrollToSection('features')}>
-                    Features
+                  <MenuItem onClick={() => scrollToSection('about us')}>
+                    About Us
                   </MenuItem>
                   <MenuItem onClick={() => scrollToSection('testimonials')}>
                     Testimonials

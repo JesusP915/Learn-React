@@ -42,7 +42,7 @@ export default function Hero() {
               fontSize: 'clamp(3.5rem, 10vw, 4rem)',
             }}
           >
-            Our latest&nbsp;
+            Unleash Your&nbsp;
             <Typography
               component="span"
               variant="h1"
@@ -52,7 +52,7 @@ export default function Hero() {
                   theme.palette.mode === 'light' ? 'primary.main' : 'primary.light',
               }}
             >
-              products
+              Sacred Vision
             </Typography>
           </Typography>
           <Typography
@@ -60,9 +60,10 @@ export default function Hero() {
             color="text.secondary"
             sx={{ alignSelf: 'center', width: { sm: '100%', md: '80%' } }}
           >
-            Explore our cutting-edge dashboard, delivering high-quality solutions
-            tailored to your needs. Elevate your experience with top-tier features
-            and services.
+            Are you on a fitness journey seeking guidance, motivation, and results?
+            Look no further than Sacred Visionaries. Our exclusive community connects
+            you wuth Certified Personal Trainers who are dedicated to helping you
+            achieve your fitness goals and transform your life! Amazing. 
           </Typography>
           <Stack
             direction={{ xs: 'column', sm: 'row' }}
@@ -84,7 +85,7 @@ export default function Hero() {
               }}
             />
             <Button variant="contained" color="primary">
-              Start now
+              Start now!
             </Button>
           </Stack>
           <Typography variant="caption" textAlign="center" sx={{ opacity: 0.8 }}>

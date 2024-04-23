@@ -14,7 +14,7 @@ import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 
 const tiers = [
   {
-    title: 'Free',
+    title: 'Free Consultation',
     price: '0',
     description: [
       '10 users included',
@@ -26,9 +26,9 @@ const tiers = [
     buttonVariant: 'outlined',
   },
   {
-    title: 'Professional',
+    title: 'Pro',
     subheader: 'Recommended',
-    price: '15',
+    price: '150',
     description: [
       '20 users included',
       '10 GB of storage',
@@ -41,8 +41,8 @@ const tiers = [
     buttonVariant: 'contained',
   },
   {
-    title: 'Enterprise',
-    price: '30',
+    title: 'Exclusive',
+    price: '300',
     description: [
       '50 users included',
       '30 GB of storage',
@@ -90,7 +90,7 @@ export default function Pricing() {
             item
             key={tier.title}
             xs={12}
-            sm={tier.title === 'Enterprise' ? 12 : 6}
+            sm={tier.title === 'Exclusive' ? 12 : 6}
             md={4}
           >
             <Card
@@ -99,11 +99,11 @@ export default function Pricing() {
                 display: 'flex',
                 flexDirection: 'column',
                 gap: 4,
-                border: tier.title === 'Professional' ? '1px solid' : undefined,
+                border: tier.title === 'Pro' ? '1px solid' : undefined,
                 borderColor:
-                  tier.title === 'Professional' ? 'primary.main' : undefined,
+                  tier.title === 'Pro' ? 'primary.main' : undefined,
                 background:
-                  tier.title === 'Professional'
+                  tier.title === 'Pro'
                     ? 'linear-gradient(#033363, #021F3B)'
                     : undefined,
               }}
@@ -115,13 +115,13 @@ export default function Pricing() {
                     display: 'flex',
                     justifyContent: 'space-between',
                     alignItems: 'center',
-                    color: tier.title === 'Professional' ? 'grey.100' : '',
+                    color: tier.title === 'Pro' ? 'grey.100' : '',
                   }}
                 >
                   <Typography component="h3" variant="h6">
                     {tier.title}
                   </Typography>
-                  {tier.title === 'Professional' && (
+                  {tier.title === 'Pro' && (
                     <Chip
                       icon={<AutoAwesomeIcon />}
                       label={tier.subheader}
@@ -144,7 +144,7 @@ export default function Pricing() {
                   sx={{
                     display: 'flex',
                     alignItems: 'baseline',
-                    color: tier.title === 'Professional' ? 'grey.50' : undefined,
+                    color: tier.title === 'Pro' ? 'grey.50' : undefined,
                   }}
                 >
                   <Typography component="h3" variant="h2">
@@ -175,7 +175,7 @@ export default function Pricing() {
                       sx={{
                         width: 20,
                         color:
-                          tier.title === 'Professional'
+                          tier.title === 'Pro'
                             ? 'primary.light'
                             : 'primary.main',
                       }}
@@ -185,7 +185,7 @@ export default function Pricing() {
                       variant="subtitle2"
                       sx={{
                         color:
-                          tier.title === 'Professional' ? 'grey.200' : undefined,
+                          tier.title === 'Pro' ? 'grey.200' : undefined,
                       }}
                     >
                       {line}

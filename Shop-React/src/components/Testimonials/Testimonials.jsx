@@ -104,8 +104,8 @@ export default function Testimonials() {
           Testimonials
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          See what our customers love about our products. Discover how we excel in
-          efficiency, durability, and satisfaction. Join us for quality, innovation,
+          See why Sacred Visionaries is for you, from you. Discover how we excel in
+          efficiency, durability, and satisfaction through our past clients and current members. Join us for quality, innovation,
           and reliable support.
         </Typography>
       </Box>

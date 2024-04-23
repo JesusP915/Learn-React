@@ -15,37 +15,37 @@ import ThumbUpAltRoundedIcon from '@mui/icons-material/ThumbUpAltRounded';
 const items = [
   {
     icon: <SettingsSuggestRoundedIcon />,
-    title: 'Adaptable performance',
+    title: 'Comprehensive wellness',
     description:
       'Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks.',
   },
   {
     icon: <ConstructionRoundedIcon />,
-    title: 'Built to last',
+    title: 'Balanced approach',
     description:
       'Experience unmatched durability that goes above and beyond with lasting investment.',
   },
   {
     icon: <ThumbUpAltRoundedIcon />,
-    title: 'Great user experience',
+    title: 'Long term results',
     description:
       'Integrate our product into your routine with an intuitive and easy-to-use interface.',
   },
   {
     icon: <AutoFixHighRoundedIcon />,
-    title: 'Innovative functionality',
+    title: 'Enhanced performance',
     description:
       'Stay ahead with features that set new standards, addressing your evolving needs better than the rest.',
   },
   {
     icon: <SupportAgentRoundedIcon />,
-    title: 'Reliable support',
+    title: 'Stress reduction',
     description:
       'Count on our responsive customer support, offering assistance that goes beyond the purchase.',
   },
   {
     icon: <QueryStatsRoundedIcon />,
-    title: 'Precision in every detail',
+    title: 'Inner transformation',
     description:
       'Enjoy a meticulously crafted product where small touches make a significant impact on your overall experience.',
   },
@@ -81,9 +81,11 @@ export default function Highlights() {
             Highlights
           </Typography>
           <Typography variant="body1" sx={{ color: 'grey.400' }}>
-            Explore why our product stands out: adaptability, durability,
-            user-friendly design, and innovation. Enjoy reliable customer support and
-            precision in every detail.
+            At Sacred Visionaries, we believe that true wellness goes beyond 
+            physical fitness. Our holisitc approach to fitness encompasses 
+            every aspect of your well being, ensuring that you achiveve not only
+            a strong body but a healthy mind and spirit. Here are six reasons 
+            why holistic fintess can be essential for you.
           </Typography>
         </Box>
         <Grid container spacing={2.5}>
