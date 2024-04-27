@@ -17,37 +17,37 @@ const items = [
     icon: <SettingsSuggestRoundedIcon />,
     title: 'Comprehensive wellness',
     description:
-      'Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks.',
+      'Improve your mood, well-being, stress levels, energy levels, and sleep! ',
   },
   {
     icon: <ConstructionRoundedIcon />,
     title: 'Balanced approach',
     description:
-      'Experience unmatched durability that goes above and beyond with lasting investment.',
+      'Integrating holistic fitness also promotes resilience, harmony, and a greater sence of fulfillment.',
   },
   {
     icon: <ThumbUpAltRoundedIcon />,
     title: 'Long term results',
     description:
-      'Integrate our product into your routine with an intuitive and easy-to-use interface.',
+      'Regular exercise can lead to overall age longevity and improved quality of life. ',
   },
   {
     icon: <AutoFixHighRoundedIcon />,
     title: 'Enhanced performance',
     description:
-      'Stay ahead with features that set new standards, addressing your evolving needs better than the rest.',
+      'Fitness can boost mental clarity, focus, and motivation! Optimizing overall performance for activities. ',
   },
   {
     icon: <SupportAgentRoundedIcon />,
     title: 'Stress reduction',
     description:
-      'Count on our responsive customer support, offering assistance that goes beyond the purchase.',
+      'Reduce stress by releasing endorphins and neurotransmitters that promote happpiness and relaxation!',
   },
   {
     icon: <QueryStatsRoundedIcon />,
     title: 'Inner transformation',
     description:
-      'Enjoy a meticulously crafted product where small touches make a significant impact on your overall experience.',
+      'Foster inner transformation by understanding oneself and allowing personal growth!',
   },
 ];
 

@@ -18,23 +18,23 @@ const items = [
     icon: <ViewQuiltRoundedIcon />,
     title: 'Weight Gain / Fat Loss',
     description:
-      'This item could provide a snapshot of the most important metrics or data points related to the product.',
+      'Want to look good and feel even better? We can help!',
     imageLight: 'url("/static/images/templates/templates-images/dash-light.png")',
     imageDark: 'url("/static/images/templates/templates-images/dash-dark.png")',
   },
   {
     icon: <EdgesensorHighRoundedIcon />,
-    title: 'Calisthenics',
+    title: 'Nutrition',
     description:
-      'This item could provide information about the mobile app version of the product.',
+      'Bad dieting is a thing of the past! Check out why. ',
     imageLight: 'url("/static/images/templates/templates-images/mobile-light.png")',
     imageDark: 'url("/static/images/templates/templates-images/mobile-dark.png")',
   },
   {
     icon: <DevicesRoundedIcon />,
-    title: 'Nutrition',
+    title: 'Mental Health',
     description:
-      'This item could let users know the product is available on all platforms, such as web, mobile, and desktop.',
+      'Mental Health is just as important as physical health. Lets combine them!',
     imageLight: 'url("/static/images/templates/templates-images/devices-light.png")',
     imageDark: 'url("/static/images/templates/templates-images/devices-dark.png")',
   },
