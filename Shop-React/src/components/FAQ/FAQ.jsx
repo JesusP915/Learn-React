@@ -51,7 +51,7 @@ export default function FAQ() {
             id="panel1d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              How do I contact customer support if I have a question or issue?
+              Is holistic fitness suitable for beginners or those with specific health concerns?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -60,10 +60,8 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              You can reach our customer support team by emailing
-              <Link> support@email.com </Link>
-              or calling our toll-free number. We&apos;re here to assist you
-              promptly.
+              Absolutely! Holisitic fitness embraces inclusivity and individuality,
+              providing a supportive and adaptable environment for growth and transformation!
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -77,7 +75,7 @@ export default function FAQ() {
             id="panel2d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              Can I return the product if it doesn&apos;t meet my expectations?
+              What can I expect from a holistic fitness program?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -86,9 +84,10 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Absolutely! We offer a hassle-free return policy. If you&apos;re not
-              completely satisfied, you can return the product within [number of
-              days] days for a full refund or exchange.
+              In holistic fitness, you can expect a holistic approach to fitness.
+              This includes mindful movement practices, stress reduction techniques,
+              holistic wellness resources, and more! We take you on a jopurney of self-discovery,
+              empowerment, and holistic transformation.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -102,7 +101,7 @@ export default function FAQ() {
             id="panel3d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              What makes your product stand out from others in the market?
+              What sets holistic fitness apart from traditional programs?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -111,9 +110,10 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Our product distinguishes itself through its adaptability, durability,
-              and innovative features. We prioritize user satisfaction and
-              continually strive to exceed expectations in every aspect.
+              Holistic fitness focuses on nuturing the mind, body, and spirit.
+              We integrate physical exercise with mindfulness, stress managment,
+              nutrition, and emotional well-being. It goes beyond the gym to
+              promote balance and harmony in all aspects of life!
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -127,7 +127,7 @@ export default function FAQ() {
             id="panel4d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              Is there a warranty on the product, and what does it cover?
+              How can holistic fitness benefit my overall well-being?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -136,10 +136,9 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Yes, our product comes with a [length of warranty] warranty. It covers
-              defects in materials and workmanship. If you encounter any issues
-              covered by the warranty, please contact our customer support for
-              assistance.
+              Holistic fitness empowers individuals to cultivate resilience, self-awarness,
+              and inner peace while improving physical health, mental clarity, and emotional balance.
+              This leads to a more fulfilling and vibrant life!
             </Typography>
           </AccordionDetails>
         </Accordion>
